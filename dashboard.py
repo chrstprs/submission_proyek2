@@ -43,7 +43,7 @@ except Exception as e:
 
 # Set title for the dashboard
 st.title("🚴‍♂️ Dashboard Analisis Penyewaan Sepeda")
-st.write("Dashboard ini menampilkan analisis penyewaan sepeda berdasarkan faktor cuaca dan pola waktu, sesuai dengan analisis di notebook.")
+st.write("Dashboard ini menampilkan analisis penyewaan sepeda berdasarkan faktor cuaca dan pola waktu, sesuai dengan analisis yang sudah dilakukan.")
 
 # Tab navigasi
 tab1, tab2, tab3 = st.tabs(["🌤️ Pengaruh Faktor Cuaca", "📊 Waktu Puncak Penyewaan", "📚 Kesimpulan"])
@@ -66,7 +66,7 @@ if st.sidebar.button("Lihat Total Penyewaan"):
 
 # Deskripsi dataset
 st.sidebar.subheader("Tentang Dataset")
-st.sidebar.write("Dataset ini berisi data penyewaan sepeda harian dan per jam, termasuk faktor cuaca (suhu, kelembaban, kecepatan angin, kondisi cuaca) dan variabel waktu (hari kerja/akhir pekan). Sumber: Bike Sharing Dartaset.")
+st.sidebar.write("Dataset ini berisi data penyewaan sepeda harian dan per jam, termasuk faktor cuaca (suhu, kelembaban, kecepatan angin, kondisi cuaca) dan variabel waktu (hari kerja/akhir pekan). Sumber: Bike Sharing Dataset.")
 
 # Informasi Kontak
 st.sidebar.subheader("ℹ️ Tentang")
@@ -200,4 +200,4 @@ with tab3:
 
 # Footer
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: #A9A9A9;'>© 2025 Bike Analytics - Dibuat dengan  oleh Damianus Christopher Samosir</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #A9A9A9;'>© 2025 Bike Analytics - Dibuat dengan oleh Damianus Christopher Samosir</p>", unsafe_allow_html=True)
