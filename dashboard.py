@@ -66,7 +66,7 @@ if st.sidebar.button("Lihat Total Penyewaan"):
 
 # Deskripsi dataset
 st.sidebar.subheader("Tentang Dataset")
-st.sidebar.write("Dataset ini berisi data penyewaan sepeda harian dan per jam, termasuk faktor cuaca (suhu, kelembaban, kecepatan angin, kondisi cuaca) dan variabel waktu (hari kerja/akhir pekan). Sumber: Data Publik Bike Sharing.")
+st.sidebar.write("Dataset ini berisi data penyewaan sepeda harian dan per jam, termasuk faktor cuaca (suhu, kelembaban, kecepatan angin, kondisi cuaca) dan variabel waktu (hari kerja/akhir pekan). Sumber: Bike Sharing Dartaset.")
 
 # Informasi Kontak
 st.sidebar.subheader("ℹ️ Tentang")
