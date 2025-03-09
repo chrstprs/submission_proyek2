@@ -200,4 +200,4 @@ with tab3:
 
 # Footer
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: #A9A9A9;'>© 2025 Bike Analytics - Dibuat dengan ❤️ oleh Damianus Christopher Samosir</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #A9A9A9;'>© 2025 Bike Analytics - Dibuat dengan  oleh Damianus Christopher Samosir</p>", unsafe_allow_html=True)
