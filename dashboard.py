@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Set tema dan konfigurasi halaman sebagai perintah pertama
+st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 # Set konfigurasi awal untuk visualisasi
 sns.set_style("whitegrid")
 plt.rcParams["figure.figsize"] = (10, 5)  # Ukuran default untuk scatter plot
